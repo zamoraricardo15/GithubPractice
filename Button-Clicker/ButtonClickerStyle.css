@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row { 
+    display: flex; 
+}
+
+body {
+    font-family: 'Tangerine', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.top {
+    height: 100px;
+    padding: 25px;    
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    padding: 10px;
+    margin: 100px;
+    border-color: black;
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+a { 
+    color: blue; 
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.btn {
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    font-size: 1.7rem;
+    
+}
+
+.log {
+    background-color: rgb(51, 51, 207);
+    color: white;
+}
+
+.col-2 { 
+    flex: 2; 
+
+}
+
+.col-1 { 
+    flex: 1; 
+    margin-left: 25px;
+
+}
+
+.box {
+    border: 5px solid silver;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.concep {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.line {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line p {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.like {
+    background-color: orange;
+}
+
+.concept-text {
+    flex: 3;
+    margin-left: 25px;
+    font-size: 1.2rem;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+}
+
+.extra {
+    background-color: greenyellow;
+    width: 100%;
+    margin-top: 25px;
+}
