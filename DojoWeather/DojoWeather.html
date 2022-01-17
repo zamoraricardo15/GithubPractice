@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="DojoWeatherStyle.css">
+</head>
+<body>
+
+    <div class="upper">
+
+        <div class="nav">
+
+            <h1>DojoWeather</h1>
+
+            <ul class="links">
+                <li onclick="load()"><a href="##">Burbank</a></li>
+
+                <li onclick="load()"><a href="##">Chicago</a></li>
+                <li onclick="load()"><a href="##">Dallas</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sjo">
+
+            <h2>San Jose</h2>
+            <form>
+
+                <label>Show temperature in</label>
+                <select name="CeliusFahrenheit" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="row">
+            <div class="weather">
+                <h1>Today</h1>
+                <img src="assets/some_rain.png" alt="rain">
+                <p>some rain</p>
+
+                <p class="temperatures">
+
+                    <span class="higher" id="temp1">24°</span>
+                    <span class="lower" id="temp2">18°</span>
+                </p>
+            </div>
+
+            <div class="weather">
+                <h1>Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <p class="temperatures">
+                    <span class="higher" id="temp3">27°</span>
+                    <span class="lower" id="temp4">19°</span>
+                </p>
+            </div>
+
+            <div class="weather">
+                <h1>Friday</h1>
+                <img src="assets/some_clouds.png" alt="clouds">
+                <p>some cloud</p>
+
+                <p class="temperatures">
+                    <span class="higher" id="temp5">21°</span>
+                    <span class="lower" id="temp6">16°</span>
+                </p>
+
+            </div>
+            <div class="weather">
+                <h1>Saturday</h1>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+
+                <p class="temperatures">
+                    <span class="higher" id="temp7">26°</span>
+                    <span class="lower" id="temp8">21°</span>
+                </p>
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cookie01">
+
+            <img src="assets/cookie.png" alt="cookie1">
+            <div class="text">
+                <h2>Stop! Cookie time.</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="btn" onclick="accept()">Accept</button>
+        </div>
+    </div>
+    <script src="DojoWeatherScript.js"></script>
+</body>
+</html>
